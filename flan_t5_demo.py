@@ -38,7 +38,7 @@ def process_streamlit():
 def process_flan_t5(prompt, question):
     # initialize HF LLM
     flan_t5 = HuggingFaceHub(
-        repo_id="google/flan-t5-xxl",
+        repo_id="google/flan-t5-xl",
         model_kwargs={"temperature":1e-10}
     )
 
