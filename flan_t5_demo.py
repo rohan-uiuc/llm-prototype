@@ -194,5 +194,5 @@ if __name__=='__main__':
         text += element
         t.text(text)
 
-    if t != st.empty():
+    if t != st.empty() and display_text:
         st.balloons()
