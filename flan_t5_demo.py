@@ -193,3 +193,6 @@ if __name__=='__main__':
         time.sleep(0.1)
         text += element
         t.text(text)
+
+    if t != st.empty():
+        st.balloons()
