@@ -107,8 +107,7 @@ def processs_openAI(prompt, question):
         llm=davinci
     )
 
-    print(llm_chain.run(question))
-
+    return llm_chain.run(question)
 
 
     qs = [
