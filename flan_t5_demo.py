@@ -192,7 +192,7 @@ if __name__=='__main__':
     for element in display_text:
         time.sleep(0.1)
         text += element
-        t.text(text)
+        t.markdown(text)
 
     if t != st.empty() and display_text:
         st.balloons()
